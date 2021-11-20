@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a, button, small, p, label{
+ font-family: "Montserrat", sans-serif;
+ font-weight: 500;
+ font-size: 16px;
+ color: #edf0f1;
+ text-decoration: none;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    max-height: 100px;
+}
+
+.logo{
+    cursor: pointer;
+}
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover{
+    color: #0088A9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+.home h1, .about h1, .contact h1, .compose h1{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.home p, .about p, .contact p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.compose input{
+    border: 0.1px solid #edf0f1;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin-left: 10px;
+    box-sizing: border-box;
+}
+.content textarea{
+    width: 50%;
+}
+.contact,.title{
+    margin-top: 30px;
+}
+
+.compose textarea{
+    border: 0.1px solid #edf0f1;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+.compose button{
+    padding: 5px 20px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.compose button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50em;
+    max-height: 50px;
+    position: fixed;
+    bottom: 0;
+}
